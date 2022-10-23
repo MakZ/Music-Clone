@@ -3,7 +3,7 @@ const deezer = async (endpoint) => {
     const response = await fetch(`${API_BASE_URL}/${endpoint}`, {
       method: "GET",
       headers: {
-        "x-rapidapi-key": "3e3c6bdaa3mshbb452ba41a39dbbp1bfa0fjsn89762b416a91",
+        "x-rapidapi-key": "d445c11f9fmsh56df24a1c7a5a23p1c4426jsnd53880f12332",
         "x-rapidapi-host": "deezerdevs-deezer.p.rapidapi.com",
       },
     });
