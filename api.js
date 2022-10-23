@@ -17,28 +17,13 @@ const deezer = async (endpoint) => {
 
 const getGenres = async () => {
   const promises = [
-    0,
-    132,
-    116,
-    152,
-    113,
-    165,
-    85,
-    106,
-    466,
-    144,
-    129,
-    98,
-    173,
-    169,
-    2,
+    23,
     12,
     16,
-    153,
-    75,
-    81,
-    95,
-    197,
+    36,
+    65,
+    67,
+    73,
   ].map(async (id) => {
     const promise = await deezer(`/genre/${id}`);
     return promise;
